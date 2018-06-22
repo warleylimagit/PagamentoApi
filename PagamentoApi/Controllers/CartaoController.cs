@@ -12,6 +12,7 @@ namespace PagamentoApi.Controllers
     [ApiController]
     public class CartaoController : ControllerBase
     {
+        [HttpGet]
         public IActionResult PagamentoGet([FromQuery] Pagamento _pagamento)
         {
             try
