@@ -19,7 +19,8 @@ namespace PagamentoApi
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>().UseUrls("https://localhost:5050");
+                .UseStartup<Startup>()
+                .UseUrls("https://localhost:5051");
                                
     }
 }
