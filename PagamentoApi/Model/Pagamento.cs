@@ -16,5 +16,14 @@ namespace PagamentoApi.Model
 
         [Required]
         public string CodigoCartao { get; set; }
+
+        [Required]
+        public double Valor { get; set; }
+
+        [Required]
+        public int Parcelas { get; set; }
+
+        [Required]
+        public string TokenUsuario { get; set; }
     }
 }
